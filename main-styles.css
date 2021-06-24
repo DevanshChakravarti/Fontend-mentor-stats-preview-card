@@ -34,7 +34,7 @@ main {
   order: 1;
   background: var(--primary-700);
   color: var(--white);
-  padding: 5rem 4rem;
+  padding: 4.5rem 4rem;
   border-radius: 10px 0 0 10px;
 }
 .card-heading {
