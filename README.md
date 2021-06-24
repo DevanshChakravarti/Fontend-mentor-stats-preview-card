@@ -11,7 +11,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -31,8 +30,8 @@ Challenge was to develop given layout in give viewport:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/DevanshChakravarti/Fontend-mentor-stats-preview-card)
+- Live Site URL: [Add live site URL here](https://devanshchakravarti.github.io/Fontend-mentor-stats-preview-card/)
 
 ### Built with
 
@@ -57,12 +56,8 @@ how _linear-gradient()_ used with _images_ using _CSS background property_ and _
 
 Before this challange I have never used filter or overlay color on images. All website UI development I have done have normal images. And going to use this feature from now to make background or card make attractive.
 
-### Useful resources
-
-- [MDN developer mozilla](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
-- Website - [Devansh Chakravarti](https://github.com/Dev-9908)
-- Frontend Mentor - [@Devansh](https://www.frontendmentor.io/profile/Dev-9908)
+- Website - [Devansh Chakravarti](https://github.com/DevanshChakravarti)
+- Frontend Mentor - [@Devansh](https://www.frontendmentor.io/profile/DevanshChakravarti)
