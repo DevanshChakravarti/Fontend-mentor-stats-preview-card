@@ -1,0 +1,129 @@
+:root {
+  --primary-900: hsl(233, 47%, 7%);
+  --primary-700: hsl(244, 38%, 16%);
+  --accent-100: hsl(277, 64%, 61%);
+  --dark-blue-300: hsl(228, 45%, 44%);
+  --white: hsl(0, 0%, 100%);
+  --neutral-A100: hsla(0, 0%, 100%, 0.75);
+  --neutral-A200: hsla(0, 0%, 100%, 0.6);
+
+  --font-Inter: "Inter", sans-serif;
+  --font-Lexend: "Lexend Deca", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: var(--primary-900);
+  display: grid;
+  place-items: center;
+  font-family: var(--font-Lexend);
+}
+/* card-section start */
+main {
+  width: 1100px;
+  height: 450px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.card--section {
+  order: 1;
+  background: var(--primary-700);
+  color: var(--white);
+  padding: 4rem;
+  border-radius: 10px 0 0 10px;
+}
+.card-heading {
+  font-size: 2.2em;
+  font-weight: 700;
+}
+.card-heading span {
+  color: var(--accent-100);
+}
+.card-content {
+  padding: 1.5rem 0;
+  font-size: 1em;
+  font-family: var(--font-Inter);
+  line-height: 1.5;
+  color: var(--neutral-A200);
+}
+.company--specs {
+  padding: 3rem 0 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.specs {
+  display: grid;
+}
+.specs span:first-child {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.specs span:last-child {
+  color: var(--neutral-A200);
+  font-size: 0.95em;
+  font-family: var(--font-Inter);
+  text-transform: uppercase;
+}
+.card--image {
+  order: 2;
+}
+.img {
+  background: linear-gradient(rgba(76, 1, 122, 0.6), rgba(76, 1, 122, 0.6)),
+    url("./images/image-header-desktop.jpg");
+  background-size: cover;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+}
+
+.attribution {
+  color: var(--white);
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* responsive */
+@media (max-width: 576px) {
+  main {
+    width: 350px;
+    height: 650px;
+    grid-template-columns: 1fr;
+  }
+  .card--image {
+    order: 1;
+  }
+  .card--section {
+    order: 2;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 0 0 10px 10px;
+  }
+  .card-heading {
+    font-size: 1.8em;
+  }
+  .company--specs {
+    padding: 0;
+    flex-direction: column;
+  }
+  .specs {
+    margin: 0 0 1rem;
+  }
+  .specs span:first-child {
+    font-size: 1.2em;
+  }
+  .specs span:last-child {
+    font-size: 0.8em;
+  }
+  .img {
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+  }
+}
